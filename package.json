@@ -1,0 +1,22 @@
+{
+  "name": "tilderize",
+  "version": "1.0.0",
+  "description": "Create text tilderized",
+  "author": "Dante Calderón <mail@dantecalderon.dev>",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "tildes",
+    "text",
+    "transform"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
