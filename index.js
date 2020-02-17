@@ -1,5 +1,5 @@
 const tilderize = (text) => {
-  return text.replace(/[aeiouáéíóú]/gi, (v) => {
+  return text.replace(/[aeiouáéíóúnñ]/gi, (v) => {
     switch (v) {
       case 'a':
       case 'A':
@@ -26,6 +26,11 @@ const tilderize = (text) => {
       case 'U':
       case 'Ú':
         return '(u|ú)'
+      case 'n':
+      case 'ñ':
+      case 'N':
+      case 'Ñ':
+        return '(n|ñ)'
       default:
         return ''
     }
